@@ -1,0 +1,252 @@
+.product-form-container {
+  margin: 1rem 5rem;
+  background-color: rgb(243, 244, 245);
+  padding: 1rem;
+  direction: rtl;
+  text-align: right;
+  border-radius: 0.5rem;
+
+  @media (max-width: 768px) {
+    margin: 1rem;
+  }
+}
+
+.section-title {
+  color: rgb(34, 34, 34);
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.product-modal-title {
+  text-align: right;
+
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1.3rem;
+  padding: 0 1rem;
+
+  .product-modal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .form-row {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+
+      @media (max-width: 600px) {
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+.css-81qg8w {
+  direction: rtl !important;
+}
+
+.css-w1u3ce {
+  float: right !important;
+  direction: rtl !important;
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.form-row > * {
+  flex: 1 1 48%;
+}
+
+.add-product-button {
+  margin-top: 1.5rem;
+  margin-left: 15px;
+  text-align: left;
+
+  @media screen and (max-width: 432px) {
+    margin-left: 5px;
+  }
+}
+
+.form-actions {
+  display: flex;
+  justify-content: end;
+}
+
+.btn-s {
+  font-size: 1rem !important;
+  padding: 4px 10px !important;
+  min-height: 32px !important;
+  width: fit-content !important;
+}
+
+.css-16wblaj-MuiInputBase-input-MuiOutlinedInput-input {
+  height: 1rem !important;
+  background-color: white !important;
+}
+
+.product-list {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.product-item,
+.total-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.product-item strong {
+  color: #333;
+}
+
+.product-item div {
+  display: flex;
+  gap: 1rem;
+}
+
+.product-item button {
+  font-size: 0.875rem;
+  padding: 4px 8px;
+  border-radius: 0.5rem;
+}
+
+.product-item button:hover {
+  opacity: 0.8;
+}
+
+.product-item button:focus {
+  outline: none;
+}
+
+.custom-hr {
+  margin: 0.5rem;
+  border-top: 2px solid #7f7d7d;
+}
+
+.custom-modal-hr {
+  margin: 1rem 1rem 2.5rem 1rem;
+  border-top: 2px solid #7f7d7d;
+}
+
+.product-table {
+  width: 100%;
+  direction: rtl;
+  border-collapse: collapse;
+  padding: 1rem;
+
+  th,
+  td {
+    padding: 8px;
+    text-align: center !important;
+    border-bottom: 1px solid #ccc;
+  }
+}
+
+.table-responsive {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.btn-td {
+  padding: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.btn-td Button {
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .product-form-container {
+    margin: 1rem;
+  }
+
+  .form-row > * {
+    flex: 1 1 100%;
+  }
+
+  .product-table {
+    font-size: 0.9rem;
+  }
+
+  .btn-td {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-section {
+    padding: 0 0.5rem;
+  }
+
+  .total-summary {
+    padding: 0 0.5rem;
+  }
+}
+
+.persian-datepicker {
+  width: inherit !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 4px;
+  padding: 16.5px 14px;
+  font-size: 0.875rem;
+  direction: rtl;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.rmdp-input {
+  height: 2.75rem;
+}
+
+.ep-arrow.rmdp-ep-arrow.rmdp-ep-shadow.persian-datepicker {
+  display: none !important;
+}
+.custom-text-field {
+  & label {
+    transform-origin: top right;
+    left: inherit !important;
+    right: 1.75rem !important;
+    top: -0.9rem;
+    font-size: 0.875rem;
+    color: #807d7b;
+    font-weight: 400;
+    overflow: unset;
+    text-align: right;
+    padding: 4px;
+    z-index: 1;
+  }
+
+  & label.Mui-focused {
+    top: -0.9rem;
+    font-size: 0.75rem;
+  }
+
+  & .MuiInputLabel-shrink {
+    top: -0.9rem;
+    font-size: 0.75rem;
+  }
+}
+.btn-edit{
+  margin-left: 5px !important;
+}
